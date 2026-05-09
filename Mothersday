@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    .booklet-container {
+      width: 100%;
+      max-width: 1472px;
+    }
+
+    iframe {
+      border: 0;
+      overflow: hidden;
+      width: 100%;
+      height: 850px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="booklet-container">
+    <iframe 
+      src="https://simplebooklet.com/embed.php?wpKey=lwGVM41ljECakGwsyHbqCR&source=embed"
+      allowfullscreen
+      scrolling="no">
+    </iframe>
+  </div>
+
+</body>
+</html>
